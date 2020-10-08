@@ -1,34 +1,33 @@
 {
-  "name": "frontend",
-  "version": "0.1.0",
-  "private": true,
+  "name": "siteapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development --watch ./frontend/src/index.js --output ./frontend/static/frontend/main.js",
+    "build": "webpack --mode production ./frontend/src/index.js --output ./frontend/static/frontend/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.3.0",
+    "file-loader": "^6.1.0",
+    "style-loader": "^1.2.1",
+    "svg-inline-loader": "^0.8.2",
+    "svg-url-loader": "^6.0.0",
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12"
+  },
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.3.2",
-    "@testing-library/user-event": "^7.1.2",
+    "axios": "^0.20.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+    "react-router-dom": "^5.2.0"
   }
 }

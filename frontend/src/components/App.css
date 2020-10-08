@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+}
+
+/*.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}*/
+
+/*@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}*/
+
+.App-header {
+  min-height: 20vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  font-size: calc(10px + 2vmin);
+  border-bottom: 1px solid black;
+}
+
+.header {
+  color: black;
+}
+
+  .textofH {
+    font-size:200%;
+  }
+
+.LogoImg {
+    width: 10%;
+    height: auto;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: rgb(73, 79, 82);
+  color: white;
+  font-size: 17px;
+  text-decoration: none;
+  color: white;
+  }
+
+
+.navBar {
+    width:  50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  text-decoration: none;
+}  
+
+.list {
+  text-decoration: none;
+  color: white;
+}
+
+.footer {
+    background-color: grey;
+    border-top: 1px solid #E7E7E7;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+    }
+
+.footerschild {
+    display: block;
+      height: 60px;
+  width: 100%;
+}
+
+.footertext {
+  color:white;
+  text-decoration: none;
+}
+
+.footerhref {
+  text-decoration: none;
+}
+/*@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+*/
+
